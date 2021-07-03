@@ -1,0 +1,24 @@
+{
+  "name": "kufi",
+  "version": "1.0.0",
+  "description": "It is a tools kit for your Discord bot.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuzzi01/kufi.git"
+  },
+  "keywords": [
+    "bot",
+    "utils"
+  ],
+  "author": "Kuzzi#9362 (kuzziprojects@gmail.com)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Kuzzi01/kufi/issues"
+  },
+  "homepage": "https://github.com/Kuzzi01/kufi#readme",
+  "dependencies": {}
+}
