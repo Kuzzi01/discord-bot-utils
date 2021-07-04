@@ -128,8 +128,13 @@ return str.replace(/2&#(\d+)k/g, function(match, dec) {
 })
 };
 
-let data = "2&#69k2&#114k2&#101k2&#115k2&#32k2&#118k2&#105k2&#100k2&#97k"
-
-let code = decode(data)
-
-console.log(code)
+module.exports = {
+  randomCode,
+  ms,
+  validNum,
+  validURL,
+  validMail,
+  discordInv,
+  encode,
+  decode
+}
