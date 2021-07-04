@@ -1,10 +1,21 @@
 # Kufi
 
-Kufi es un kit de herramientas para el desarrollo de tu bot de discord, utilizándolo podrás agregar nuevas funciones a tu estilo.
+<div>
+    <p>
+        <img alt="npm" src="https://img.shields.io/npm/v/kufi?color=C7A486&logo=npm&style=for-the-badge">
+        <img alt="NPM" src="https://img.shields.io/npm/l/kufi?color=C7A486&label=licencia&logo=npm&style=for-the-badge">
+        <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Kuzzi01/kufi?color=C7A486&logo=github&style=for-the-badge">
+    </p>
+</div>
+
+## ¡Optimiza tu tiempo!
+
+Kufi es un kit de herramientas que facilitan el desarrollo de tu bot de discord, utilizándolo podrás agregar nuevas funciones a tu estilo y sin muchas complicaciones.
+
 ## Instalación
 
 ```shell
-npm install kufi --save
+$ npm install kufi --save
 ```
 
 ## Indice
