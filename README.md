@@ -1,8 +1,7 @@
 # Kufi
 
-Kufi es un kit de herramientas para el desarrollo de tu bot de discord, utilizandolo podras agregarle nuevas funciones a tu manera de desarrollarlo.
-
-## Instalacion
+Kufi es un kit de herramientas para el desarrollo de tu bot de discord, utilizándolo podrás agregar nuevas funciones a tu estilo.
+## Instalación
 
 ```shell
 npm install kufi --save
@@ -19,7 +18,7 @@ npm install kufi --save
 * [encode](#encode)
 * [decode](#decode)
 
-## Ejemplo de requerimiento del packege:
+## Ejemplo de requerimiento del package:
 
 ```js
 const kufi = require('kufi')
@@ -34,23 +33,21 @@ const kufi = require('kufi')
 randomCode(num)
 ```
 
-Esta funcion te permite generar un codigo aleatorio.
+__Uso__
 
-__Modo de uso__
+Te permitirá generar un código random del cual tu puedes elegir que cantidad de caracteres que tendrá.
 
-Te permitira generar un codigo random del cual tu puedes elegir que cantidad de caracteres que tendra.
+__Parámetros__
 
-__Argumentos__
+1. `num`: Es el número de la cantidad de caracteres que quieres que se genere el código.
 
-1. num: Es el numero de la cantidad de caracteres que quieres que se genere el codigo.
+__Salida__
 
-__Retorna__
+Retorna un `string` con la cantidad de caracteres ingresados por parámetro. 
 
-Un `string` con la cantidad de caracteres que allas indicado. 
-
-__Recuerda__
-
-No habrá problema si no colocas ningún numero, si este es el caso, por defecto se generara un codigo de 9 caracteres.
+> **NOTA**
+>
+> Por defecto se generará un código de 9 caracteres. Por lo que no tendrás problemas si no especifícas la cantidad de caracteres.
 
 __Ejemplos__
 
@@ -78,17 +75,20 @@ console.log(codigo)//retorna un codigo de 9 caracteres
 ms(num, operador)
 ```
 
-El convertidor ms te ayudara a convertir los segundos, minutos y horas a milisegundos con solo 1 función
+__Uso__
 
-__Argumentos__
+El convertidor `ms` te ayudará a convertir los segundos, minutos y horas a milisegundos con solo una función.
 
-1. num: Cantidad de segundo/minutos/horas que quieres convertir
+__Parámetros__
 
-2. operador: es un tipo `string` con las opciones de "s/m/h" que equivalen a s = segundos, m = minutos, h = horas.
+1. `num`: Cantidad de segundo/minutos/horas que quieres convertir.
 
-__Retorna__
+2. `operador`: Es un tipo `string` con las opciones de "`s/m/h`" que equivalen a `s = segundos`, 
+`m = minutos`, `h = horas`.
 
-La conversion de segundos/minutos/horas en milisegundos
+__Salida__
+
+Retorna la conversión de segundos/minutos/horas en milisegundos.
 
 __Ejemplos__
 
@@ -128,15 +128,17 @@ console.log(cooldown)//retornaria 3.600.000
 validNum(n)
 ```
 
-Verifica si un caracter es un numero o no
+__Uso__
 
-__Argumentos__
+Verifica si un caracter es un número o no.
 
-1. n: El caracter que quieres verificar si es un numero
+__Parámetros__
 
-__Retorna__
+1. `n`: El caracter que quieres verificar si es un número.
 
-*true* o *false*
+__Salida__
+
+Retorna un valor de tipo `bolean` (*true* or *false*).
 
 __Ejemplos__
 
@@ -169,15 +171,17 @@ if(kufi.validNum(data)){
 validURL(str)
 ```
 
-Verifica si la cadena de texto es un enlance
+__Uso__
 
-__Argumentos__ 
+Verifica si la cadena de texto es un enlance.
 
-1. str: sera la cadena de texto que queremos verificar que sea un enlace.
+__Parámetros__ 
 
-__Retorna__
+1. `str`: Será la cadena de texto que queremos verificar que sea un enlace.
 
-*true* o *false*
+__Salida__
+
+Retorna un valor de tipo `bolean` (*true* or *false*).
 
 __Ejemplos__
 
@@ -211,15 +215,17 @@ if(kufi.validURL(data)){
 validMail(str)
 ```
 
-Nos permite verificar si la cadena de texto es un correo electronico
+__Uso__
 
-__Argumentos__
+Nos permite verificar si la cadena de texto es un correo electrónico.
 
-1. str: La cadena de texto que queremos verificar
+__Parámetros__
 
-__Retorna__
+1. `str`: La cadena de texto que queremos verificar.
 
-*true* o *false*
+__Salida__
+
+Retorna un valor de tipo `bolean` (*true* or *false*).
 
 __Ejemplos__
 
@@ -252,15 +258,17 @@ if(kufi.validNum(data)){
 discordInv(str)
 ```
 
+__Uso__
+
 Nos permite verificar si la cadena de texto es una invitación de discord.
 
-__Argumentos__
+__`Parámetros`__
 
-1. str: La cadena de texto que queremos verificar
+1. `str`: La cadena de texto que queremos verificar.
 
-__Retorna__
+__Salida__
 
-*true* o *false*
+Retorna un valor de tipo `bolean` (*true* or *false*).
 
 __Ejemplos__
 
@@ -294,17 +302,19 @@ encode(str)//Codificar texto
 decode(str)//Decodificar texto
 ```
 
-Encode lo podemos utilizar para codificar una cadena de text.
+__Uso__
 
-Decode lo podemos usar para decodificar una cadena de texto ya codificada.
+**Encode** lo podemos utilizar para codificar una cadena de text.
 
-__Argumentos__
+**Decode** lo podemos usar para decodificar una cadena de texto ya codificada.
 
-1. str: Cadena de texto que quedemos codificar o decodificar
+__Parámetros__
 
-__Retorna__
+1. `str`: Cadena de texto que quedemos codificar o decodificar.
 
-La cadena de texto codificada o decodificada
+__Salida__
+
+Retorna un valor de tipo `string` con la cadena de texto codificada o descodificada, según sea el caso.
 
 __Ejemplos__
 
