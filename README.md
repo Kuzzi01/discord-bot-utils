@@ -21,7 +21,7 @@ npm install kufi --save
 ## Ejemplo de requerimiento del package:
 
 ```js
-const kufi = require('kufi')
+const kufi = require('kufi');
 ```
 
 ## Funciones
@@ -30,7 +30,7 @@ const kufi = require('kufi')
 ### randomCode
 
 ```js
-randomCode(num)
+randomCode(num);
 ```
 
 __Uso__
@@ -53,26 +53,26 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let codigo = kufi.randomCode(5)//en este caso quiero que la funcion me genere un codigo de 5 caracteres
-console.log(codigo)
+let codigo = kufi.randomCode(5); // En este caso quiero que la funcion me genere un codigo de 5 caracteres
+console.log(codigo);
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let codigo = kufi.randomCode()
+let codigo = kufi.randomCode();
 
-console.log(codigo)//retorna un codigo de 9 caracteres
+console.log(codigo); // Retorna un codigo de 9 caracteres
 ```
 
 <a name="ms"></a>
 ### ms
 
 ```js
-ms(num, operador)
+ms(num, operador);
 ```
 
 __Uso__
@@ -94,29 +94,29 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let cooldown = kufi.ms(5,"s")// En este caso queremos convertir 5 segundos en milisegundos
+let cooldown = kufi.ms(5,"s"); // En este caso queremos convertir 5 segundos en milisegundos
 
-console.log(cooldown)//retornaria 5000
+console.log(cooldown); // Retornaria 5000
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let cooldown = kufi.ms(5,"m")// En este caso queremos convertir 5 minutos en milisegundos
+let cooldown = kufi.ms(5,"m"); // En este caso queremos convertir 5 minutos en milisegundos
 
-console.log(cooldown)//retornaria 300.000
+console.log(cooldown); // Retornaria 300.000
 ```
 
 ```js
 //Ejemplo 3
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let cooldown = kufi.ms(1,"h")// En este caso queremos convertir 1 hora en milisegundos
+let cooldown = kufi.ms(1,"h"); // En este caso queremos convertir 1 hora en milisegundos
 
-console.log(cooldown)//retornaria 3.600.000
+console.log(cooldown); // Retornaria 3.600.000
 ```
 
 
@@ -125,7 +125,7 @@ console.log(cooldown)//retornaria 3.600.000
 ### validNum
 
 ```js
-validNum(n)
+validNum(n);
 ```
 
 __Uso__
@@ -144,23 +144,23 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = 9362
+let data = 9362;
 
 if(kufi.validNum(data)){
-    console.log("Restorna true y se cumple la condición")
+    console.log("Restorna true y se cumple la condición");
 }
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "Test"
+let data = "Test";
 
 if(kufi.validNum(data)){
-    //retorna false por que data en igual a "Test" que no es un numero; no se cumple la condicion
+    // Retorna false por que data en igual a "Test" que no es un numero; no se cumple la condicion
 }
 ```
 
@@ -168,7 +168,7 @@ if(kufi.validNum(data)){
 ### validURL
 
 ```js
-validURL(str)
+validURL(str);
 ```
 
 __Uso__
@@ -187,20 +187,20 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "https://github.com/Kuzzi01"
+let data = "https://github.com/Kuzzi01";
 
 if(kufi.validNum(data)){
-    console.log("Retorna true y se cumple la condición")
+    console.log("Retorna true y se cumple la condición");
 }
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "Tengo sueño"
+let data = "Tengo sueño";
 
 if(kufi.validURL(data)){
     //retorna false y no se cumple la condicion por que data no es un enlace
@@ -212,7 +212,7 @@ if(kufi.validURL(data)){
 ### validMail
 
 ```js
-validMail(str)
+validMail(str);
 ```
 
 __Uso__
@@ -231,20 +231,20 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "micorreo@dominio.com"
+let data = "micorreo@dominio.com";
 
 if(kufi.validNum(data)){
-    console.log("Retorna true y se cumple la condición")
+    console.log("Retorna true y se cumple la condición");
 }
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "micorreo#gatos.xyz"
+let data = "micorreo#gatos.xyz";
 
 if(kufi.validNum(data)){
     //Retorna false por que data no es un correo electronico valido.
@@ -255,14 +255,14 @@ if(kufi.validNum(data)){
 ### discordInv
 
 ```js
-discordInv(str)
+discordInv(str);
 ```
 
 __Uso__
 
 Nos permite verificar si la cadena de texto es una invitación de discord.
 
-__`Parámetros`__
+__Parámetros__
 
 1. `str`: La cadena de texto que queremos verificar.
 
@@ -274,23 +274,23 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "https://discord.gg/kPZWmMZzJ6"
+let data = "https://discord.gg/kPZWmMZzJ6";
 
 if(kufi.validNum(data)){
-    console.log("Retorna true y se cumple la condición")
+    console.log("Retorna true y se cumple la condición");
 }
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "urlcoffe.ga/sadslakd"
+let data = "urlcoffe.ga/sadslakd";
 
 if(kufi.validNum(data)){
-    //Retorna false por que data no es un correo electronico valido.
+    // Retorna false por que data no es un correo electronico valido.
 }
 ```
 
@@ -298,8 +298,8 @@ if(kufi.validNum(data)){
 ### Encode y Decode
 
 ```js
-encode(str)//Codificar texto
-decode(str)//Decodificar texto
+encode(str); // Codificar texto
+decode(str); // Decodificar texto
 ```
 
 __Uso__
@@ -320,20 +320,20 @@ __Ejemplos__
 
 ```js
 //Ejemplo 1
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "Eres vida"
+let data = "Eres vida";
 
-console.log(kufi.encode(data))//retorna la cadena de texto "data" codificada => 2&#69k2&#114k2&#101k2&#115k2&#32k2&#118k2&#105k2&#100k2&#97k
+console.log(kufi.encode(data));//retorna la cadena de texto "data" codificada => 2&#69k2&#114k2&#101k2&#115k2&#32k2&#118k2&#105k2&#100k2&#97k
 ```
 
 ```js
 //Ejemplo 2
-const kufi = require('kufi')
+const kufi = require('kufi');
 
-let data = "2&#69k2&#114k2&#101k2&#115k2&#32k2&#118k2&#105k2&#100k2&#97k"
+let data = "2&#69k2&#114k2&#101k2&#115k2&#32k2&#118k2&#105k2&#100k2&#97k";
 
-console.log(kufi.decode(data))//retorna la cadena de texto "data" decodificada => Eres vida
+console.log(kufi.decode(data)); // Retorna la cadena de texto "data" decodificada => Eres vida
 ```
 
 ## Updates
