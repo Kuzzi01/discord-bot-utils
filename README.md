@@ -262,7 +262,7 @@ __Uso__
 
 Nos permite verificar si la cadena de texto es una invitación de discord.
 
-__`Parámetros`__
+__Parámetros__
 
 1. `str`: La cadena de texto que queremos verificar.
 
