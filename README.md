@@ -351,4 +351,8 @@ console.log(kufi.decode(data)); // Retorna la cadena de texto "data" decodificad
 
 La libreria se ira actualizando constantemente para ir agregando ma funcionalidades, para facilitar nuestro trabajo.
 
+## Links
+
+[npm package](https://www.npmjs.com/package/kufi)
+
 
