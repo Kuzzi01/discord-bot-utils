@@ -27,10 +27,10 @@ function randomCode(num){
  */
 function ms(num,operador){
 
-    var op;
-    var s = "s";
-    var m = "m";
-    var h = "h";
+    let op;
+    let s = "s";
+    let m = "m";
+    let h = "h";
 
     switch(operador) {
         case s:
