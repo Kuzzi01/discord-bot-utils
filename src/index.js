@@ -28,18 +28,15 @@ function randomCode(num){
 function ms(num,operador){
 
     let op;
-    let s = "s";
-    let m = "m";
-    let h = "h";
 
     switch(operador) {
-        case s:
+        case "s":
             op = num * 1000
             break;
-        case m:
+        case "m":
             op = num * 60000
             break;
-        case h:
+        case "h":
             op = num * 3600000
             break;
     }
@@ -127,6 +124,7 @@ return str.replace(/2&#(\d+)k/g, function(match, dec) {
     return String.fromCharCode(dec);
 })
 };
+
 
 module.exports = {
   randomCode,
