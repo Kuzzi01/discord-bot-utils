@@ -125,7 +125,6 @@ return str.replace(/2&#(\d+)k/g, function(match, dec) {
 })
 };
 
-
 module.exports = {
   randomCode,
   ms,
