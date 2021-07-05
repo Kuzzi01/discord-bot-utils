@@ -1,6 +1,6 @@
 <div align="center">
     <p>
-        <img src="https://cdn.discordapp.com/attachments/852034128660004913/861441405992566784/logokuf.png" width="546" alt="logo Kufi">
+        <img src="https://cdn.discordapp.com/attachments/852034128660004913/861441405992566784/logokuf.png" alt="logo Kufi">
     </p>
     <p>
         <img alt="npm" src="https://img.shields.io/npm/v/kufi?color=C7A486&logo=npm&style=for-the-badge">
