@@ -1,62 +1,63 @@
 name: Bug Report
-description: File a bug report
+description: Presentar un informe de error
 title: "[Bug]: "
 labels: [bug, triage]
 assignees:
-  - octocat
+  - kuzzi01
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        ¡Gracias por tomarse el tiempo para completar este informe de errores!
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      label: Detalles de contacto
+      description: ¿Cómo podemos ponernos en contacto con usted si necesitamos más información?
       placeholder: ex. email@example.com
     validations:
       required: false
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: ¿Qué sucedió?
+      description: Cuéntanos también, ¿qué esperabas que sucediera?
+      placeholder: ¡Cuéntanos lo que ves!
+      value: "¡Ha ocurrido un error!"
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: ¿Qué versión de nuestro software está ejecutando?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1.1.0 (Default)
+        - 1.0.4
+        - 1.0.3
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: ¿En que SO estas utilizando la libreria?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Windows
+        - Linux
+        - Mac
+        - Otro
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Salida de registro relevante (logs)
+      description: Copie y pegue cualquier salida de registro relevante. Esto se formateará automáticamente en código, por lo que no es necesario usar comillas invertidas.
       render: shell
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Código de conducta
+      description: Al enviar este problema, acepta seguir nuestro [Código de conducta]().
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Acepto seguir el Código de conducta de este proyecto
           required: true
