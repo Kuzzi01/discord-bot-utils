@@ -50,7 +50,7 @@ La librería se va actualizando constantemente para agregar nuevas funcionalidad
 
 ## 🛠 | Contribuciones
 
-Puedes ayudarnos a hacer crecer esta librería contribuyendo. Estas son las siguentes maneras de llevar a cabo un contribución:
+Puedes ayudarnos a hacer crecer esta librería contribuyendo. Estas son las siguentes maneras de llevar a cabo una contribución:
 
 ### 1. Issues
 ¿Encontraste un bug? ¡Avísanos! Te agradecemos que reportes cualquier error.
