@@ -1,0 +1,63 @@
+name: Bug Report
+description: Presentar un informe de error
+title: "[Bug]: "
+labels: [bug, triage]
+assignees:
+  - kuzzi01
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarse el tiempo para completar este informe de errores!
+  - type: input
+    id: contact
+    attributes:
+      label: Detalles de contacto
+      description: ¿Cómo podemos ponernos en contacto con usted si necesitamos más información?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué sucedió?
+      description: Cuéntanos también, ¿qué esperabas que sucediera?
+      placeholder: ¡Cuéntanos lo que ves!
+      value: "¡Ha ocurrido un error!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: ¿Qué versión de nuestro software está ejecutando?
+      options:
+        - 1.1.0 (Default)
+        - 1.0.4
+        - 1.0.3
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: ¿En que SO estas utilizando la libreria?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+        - Otro
+  - type: textarea
+    id: logs
+    attributes:
+      label: Salida de registro relevante (logs)
+      description: Copie y pegue cualquier salida de registro relevante. Esto se formateará automáticamente en código, por lo que no es necesario usar comillas invertidas.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de conducta
+      description: Al enviar este problema, acepta seguir nuestro [Código de conducta]().
+      options:
+        - label: Acepto seguir el Código de conducta de este proyecto
+          required: true
