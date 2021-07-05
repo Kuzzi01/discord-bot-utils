@@ -68,13 +68,13 @@ Recuerda que al contribuir aceptas el [código de conducta](https://github.com/K
 Si lo consideras necesario, puedes sugerir una nueva característica a los desarrolladores. Asegurate de que no haya sido sugerida antes, si es así, puedes hacer la sugerencia en nuestro [servidor de discord](https://discord.gg/UmwPtqyKbE).
 
 
-## Ayuda
+## ❓ | Ayuda
 Si necesitas un poco más de ayuda... ¡Únete a nuestro [servidor](https://discord.gg/UmwPtqyKbE)! Ahí podrás encontrar la ayuda que necesitas, y, tal vez, amigos para trabajar en equipo. :)
 
 
-## Licencia
+## 📜 | Licencia
 Este proyecto está bajo la licencia [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 
-## Atribución
+## 📝 | Atribución
 Creado con ❤️ por [Kuzzi](https://github.com/Kuzzi01/) y los [contribuyentes](https://github.com/Kuzzi01/kufi/graphs/contributors).
