@@ -35,7 +35,7 @@ const kufi = require('kufi');
 ```js
 discordInv(str)
 encode(str) 
-decode(str))
+decode(str)
 ms(num, operador)
 progressBar(total,current, [Opciones])
 randomCode(num)
