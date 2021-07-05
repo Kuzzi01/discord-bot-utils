@@ -5,11 +5,14 @@ labels: [bug, triage]
 assignees:
   - kuzzi01
 body:
-  - type: markdown
+body:
+- type: markdown
+  value: "## Bienvenido!"
+- type: markdown
     attributes:
       value: |
         ¡Gracias por tomarse el tiempo para completar este informe de errores!
-  - type: input
+- type: input
     id: contact
     attributes:
       label: Contacto
@@ -17,7 +20,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
+- type: textarea
     id: what-happened
     attributes:
       label: ¿Qué Pasó?
@@ -26,7 +29,7 @@ body:
       value: "¡Ha ocurrido un error!"
     validations:
       required: true
-   - type: textarea
+ - type: textarea
     id: error
     attributes:
       label: ¿Como reproducir el error?
@@ -35,7 +38,7 @@ body:
       value: "¡Ha ocurrido un error!"
     validations:
       required: true
-  - type: dropdown
+- type: dropdown
     id: version
     attributes:
       label: Version
@@ -46,7 +49,7 @@ body:
         - 1.0.3
     validations:
       required: true
-  - type: dropdown
+- type: dropdown
     id: browsers
     attributes:
       label: ¿En qué SO está viendo el problema?
@@ -55,13 +58,13 @@ body:
         - Windows
         - Linux
         - Otro
-  - type: textarea
+- type: textarea
     id: logs
     attributes:
       label: Salida de registro relevante (logs)
       description: Copie y pegue cualquier salida de registro relevante. Esto se formateará automáticamente en código, por lo que no es necesario usar comillas invertidas.
       render: shell
-  - type: checkboxes
+- type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
