@@ -1,30 +1,31 @@
----
-name: Informar un error
-about: Crea un informe que nos ayude a mejorar
-title: ''
-labels: ''
-assignees: ''
+### Comportamiento actual:
 
----
+[//]: # (Una descripción concisa de lo que está experimentando.)
 
-**Describe el error**
-Una descripción clara y concisa de cuál es el error.
+### Comportamiento esperado:
 
-**Reproducir**
-Pasos para reproducir el comportamiento:
+[//]: # (Una descripción concisa de lo que esperaba que sucediera. )
 
-1. Ir '...'
-2. Haga clic en '....'
-3. Desplácese hacia abajo hasta '....'
-4. Ver error
-5. Comportamiento esperado
-6. Una descripción clara y concisa de lo que esperaba que sucediera.
+### Pasos para reproducir:
 
-**Capturas de pantalla**
-Si corresponde, agregue capturas de pantalla para ayudar a explicar su problema.
+Ejemplo: pasos para reproducir el comportamiento:
 
-### Complete la siguiente información:
+1. En este entorno ...
+2. Con esta configuración ...
+3. Ejecute '...'
+4. Ver error ...
 
-Proyecto en el que uso kufi: [p. Ej. Bot de discord, Pagina web]
-Navegador: [p. Ej. cromo, safari]
-Versión de kufi: [p. Ej. 22]
+
+### Ambiente:
+
+Ejemplo:
+
+- SO: Ubuntu 20.04
+- Nodo: 13.14.0
+- npm: 7.6.3
+
+
+### Algo más:
+
+[//]: # (¿Enlaces? ¿Fotos? Referencias ¡Cualquier cosa que nos dé más contexto sobre el problema que está encontrando!)
+
