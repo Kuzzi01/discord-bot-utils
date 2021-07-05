@@ -10,62 +10,71 @@
 </div>
 
 
-## ¡Optimiza tu tiempo!
+## 🕰 | ¡Optimiza tu tiempo!
 
 Kufi es un kit de herramientas que facilitan el desarrollo de tu bot de discord, utilizándolo podrás agregar nuevas funciones a tu estilo y sin muchas complicaciones.
 
-## Instalación
+## ⬇ | Instalación
 
-```shell
-$ npm install kufi --save
+```sh-session
+npm install kufi --save
 ```
 
-## Ejemplo de requerimiento del package:
+> **NOTA**
+> 
+> Asegúrate de tener la versión más reciente de [Node.js](https://nodejs.org/es/download/) y [Discord.js](https://discord.js.org/#/).
 
-```js
+
+## 📦 | Requerimiento del paquete
+
+```javascript
 const kufi = require('kufi');
 ```
 
-## Funciones
 
-```js
-discordInv(str)
-encode(str) 
-decode(str)
-ms(num, operador)
-progressBar(total,current, [Opciones])
-randomCode(num)
-validMail(str)
-validNum(n)
-validURL(str)
-```
+## 🔗 | Enlaces
 
-## 📁Documentación
+- [Documentación](https://docs.kufi.cf/)
+- [Servidor de Discord](https://discord.gg/UmwPtqyKbE)
+- [NPM](https://www.npmjs.com/package/kufi)
+- [Change Log](https://docs.kufi.cf/acerca-de/changelog)
+- [GitHub](https://github.com/Kuzzi01/kufi/)
+- [Discord API](https://discord.js.org/#/) ([GitHub](https://github.com/discordjs/discord.js))
+- [Node.js](https://nodejs.org/es/) ([GitHub](https://github.com/nodejs/node))
 
-Puedes leer la documentacion de las funciones usa una de los siguiente links:
 
-[Documentacion en GitHub](https://github.com/Kuzzi01/kufi/wiki) | [Documentacion en Pagina oficial](https://docs.kufi.cf)
+## 🔄 | Actualizaciones
 
-## Updates
+La librería se va actualizando constantemente para agregar nuevas funcionalidades. Te sugerimos que siempre estés pendiente de tener la última versión.
 
-La libreria se ira actualizando constantemente para ir agregando mas funcionalidades, para facilitar nuestro trabajo.
 
-## Links
+## 🛠 | Contribuciones
 
-[NPM](https://www.npmjs.com/package/kufi) |
-[GitHub](https://github.com/Kuzzi01/kufi) | [Discord](https://discord.gg/UmwPtqyKbE)
+Puedes ayudarnos a hacer crecer esta librería contribuyendo. Puedes contribuir de las siguientes formas:
 
-## ChangeLog
+### 1. Issues
+¿Encontraste un bug? ¡Avísanos! Te agradecemos que reportes cualquier error.
+Puedes reportar en el apartado de [issues](https://github.com/Kuzzi01/kufi/issues) en este repositorio.
 
-v1.1.0
-* Se agrego la función progressBar()
-* Se hizo cambios al Readme.md
+> **IMPORTANTE**
+> 
+> Antes de reportar un bug, revisa que nadie lo haya reportado antes. Vuelve a leer la documentación de ser posible.
 
-v1.0.4
-* Se hicieron cambios de redacion a las funcions (en general)
+### 2. Contribuyente
+Si crees que tienes los conocimientos necesarios para solucionar un error o agregar una nueva característica... Hazlo.
+Recuerda que al contribuir aceptas el [código de conducta](https://github.com/Kuzzi01/kufi/blob/main/code_of_conduct.md).
 
-v1.0.3
-* Se corrigio un error en la funcio validMail()
+### 3. Sugerencias
+Si lo consideras necesario, puedes sugerir una nueva característica a los desarrolladores. Asegurate de que no haya sido sugerida antes, si es así, puedes hacer la sugerencia en nuestro [servidor de discord](https://discord.gg/UmwPtqyKbE).
 
-v1.0.2
-* Se realizaron cambios menores
+
+## Ayuda
+Si necesitas un poco más de ayuda... ¡Únete a nuestro [servidor](https://discord.gg/UmwPtqyKbE)! Ahí podrás encontrar la ayuda que necesitas, y, tal vez, amigos para trabajar en equipo. :)
+
+
+## Licencia
+Este proyecto está bajo la licencia [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html).
+
+
+## Atribución
+Creado con ❤️ por [Kuzzi](https://github.com/Kuzzi01/) y los [contribuyentes](https://github.com/Kuzzi01/kufi/graphs/contributors).
