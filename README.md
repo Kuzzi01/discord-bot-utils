@@ -1,18 +1,14 @@
-<div>
+<div align="center">
     <p>
-        <img alt="logo Kufi" src="https://cdn.discordapp.com/attachments/852034128660004913/861441405992566784/logokuf.png">
+        <img src="https://cdn.discordapp.com/attachments/852034128660004913/861441405992566784/logokuf.png" alt="logo Kufi">
     </p>
-</div>
-
-# Kufi
-
-<div>
     <p>
         <img alt="npm" src="https://img.shields.io/npm/v/kufi?color=C7A486&logo=npm&style=for-the-badge">
         <img alt="NPM" src="https://img.shields.io/npm/l/kufi?color=C7A486&label=licencia&logo=npm&style=for-the-badge">
         <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Kuzzi01/kufi?color=C7A486&logo=github&style=for-the-badge">
     </p>
 </div>
+
 
 ## ¡Optimiza tu tiempo!
 
