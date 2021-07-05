@@ -46,7 +46,9 @@ validURL(str)
 
 ## 📁Documentación
 
-Puedes leer la documentacion de las funciones [aqui](https://github.com/Kuzzi01/kufi/wiki)
+Puedes leer la documentacion de las funciones usa una de los siguiente links:
+
+[Documentacion en GitHub](https://github.com/Kuzzi01/kufi/wiki) | [Documentacion en Pagina oficial](https://docs.kufi.cf)
 
 ## Updates
 
