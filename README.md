@@ -39,7 +39,6 @@ const kufi = require('kufi');
 - [NPM](https://www.npmjs.com/package/kufi)
 - [Change Log](https://docs.kufi.cf/acerca-de/changelog)
 - [GitHub](https://github.com/Kuzzi01/kufi/)
-- [Discord API](https://discord.js.org/#/) ([GitHub](https://github.com/discordjs/discord.js))
 - [Node.js](https://nodejs.org/es/) ([GitHub](https://github.com/nodejs/node))
 
 
