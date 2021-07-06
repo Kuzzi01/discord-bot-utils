@@ -12,7 +12,7 @@
 
 ## 🕰 | ¡Optimiza tu tiempo!
 
-Kufi es un kit de herramientas que facilitan el desarrollo de tu bot de discord, utilizándolo podrás agregar nuevas funciones a tu estilo y sin muchas complicaciones.
+Kufi es un kit de herramientas que facilitan el desarrollo en Node.js, utilizándolo podrás agregar nuevas funciones a tu estilo y sin muchas complicaciones.
 
 ## ⬇ | Instalación
 
