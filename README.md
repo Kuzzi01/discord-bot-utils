@@ -72,6 +72,8 @@ Si necesitas un poco más de ayuda... ¡Únete a nuestro [servidor](https://disc
 
 
 ## 📜 | Licencia
+Copyright (C) 2021 Kuzzi
+
 Este proyecto está bajo la licencia [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 
