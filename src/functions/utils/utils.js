@@ -1,4 +1,5 @@
 
+
 /**
  * Constructor para generar un objeto de la barra
  * @param {number} barra La barra
@@ -7,6 +8,11 @@
 function obj(barra, porcentaje){
     this.barra = barra
     this.porcentaje = porcentaje
+}
+
+function errKF(id){
+
+    return errMessage.id
 }
 
 module.exports = {
